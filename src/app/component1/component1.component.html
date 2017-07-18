@@ -1,0 +1,16 @@
+<h2> Angular 1 Routing</h2>
+<p>
+
+  Angular 1 uses ngRoute module to provide navigation between different views . The
+  Route Provider needs to be configured where we specify the paths and the the templates and the
+  controller will be specified as well. It is also possible to add require js to load
+  the javascript files dynamically for the paths.
+
+</p>
+<div class='code' [innerHTML]="data"></div><br>
+<p>
+  In order to navigate to a view on the click of a button we can use location service
+  which can be injected into the scope.
+  $location.path('/myview') will navigate to myview which has to be configured in the route provider
+</p>
+<button type="button" class="btn btn-info" (click)="btnClick();">Angular 4 Routing</button>
